@@ -1,0 +1,140 @@
+header{
+	background-image: url(../img/les4.jpg);
+	
+	height: 100vh;
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+ .header_menu .container{
+ 	
+ 	min-width: 375px;
+	max-width: 1920px;
+}
+
+li{
+	display: inline-block;
+	margin-right: 50px;
+}
+
+li a{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+li a:hover{
+	color:orange;
+	text-decoration: none;
+}
+ul{
+	margin-top: 40px;
+	text-align: center;
+}
+.one_flex{
+	display: flex;
+	min-height: 400px;
+
+}
+
+.two_flex{
+	margin: auto;
+}
+.title{
+	text-align: center;
+}
+.title a{
+	background-color: orange;
+	padding: 5px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.title a:hover{
+	background-color: #fff;
+	color:pink;
+}
+
+section {
+	height: 100vh;
+	margin-top: 20px;
+		background-image: url(../img/les3.jpg);
+		background-position: center;
+	background-size: cover;
+}
+section img{
+	padding-right:  20px;
+}
+
+/*_____________________________*/
+.wrapper {
+  height: 40vh;
+
+}
+.arrow {
+  width: 50px;
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 25px);
+  animation: arrowDown 2s infinite;
+}
+.arrow.two {
+  opacity: 0;
+  animation-delay: 1s;
+}
+@keyframes arrowDown {
+  0% {
+    bottom: 30px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 0;
+  }
+}
+
+
+
+/*_________________________________*/
+
+#page1 h1{
+	margin-top: 50px;
+	color: blue;
+	font-style: italic;
+}
+#page1 img{
+	margin-top: 40px;
+	opacity: 0.6;
+}
+
+section #page1{
+	box-sizing: border-box;
+	min-height: 90vh;
+	padding-bottom: 90px;
+}
+
+footer{
+	position: relative;
+	height: 100px;
+	margin-top: 60px;
+	color:#fff;
+	font-size: 20px;
+}
+footer h4{
+	margin-left: 50px;
+}
+#page2{
+	padding-top: 30px;
+}
+.title h5 p{
+	display: flex;
+	color:#08343E;
+	justify-content:  left;
+	margin-left: 30px;
+}
+.title h1{
+	color:blue;
+}
+
+
+
